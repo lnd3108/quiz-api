@@ -1,0 +1,2826 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkp9VQydMBRmW67obqD7"
+    },
+    {
+      "id": "2",
+      "fullName": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "KsZitkpwbPF3fdjbQWh"
+    },
+    {
+      "id": "3",
+      "fullName": "Ngo Van C",
+      "email": "ngovanc@gmail.com",
+      "password": "ngovanc",
+      "token": "abvY7NJdWNvgqGCCD9Lo"
+    },
+    {
+      "id": "4",
+      "fullName": "Le Van D",
+      "email": "levand@gmail.com",
+      "password": "levand",
+      "token": "tq7nF9XpG3wUnr1U76P5"
+    },
+    {
+      "id": "5",
+      "fullName": "Nguyen Thi E",
+      "email": "nguyenthie@gmail.com",
+      "password": "nguyenthie",
+      "token": "NU2p0Y2SHfNXydeoPuTO"
+    },
+    {
+      "id": "6",
+      "fullName": "luong ngoc dung",
+      "email": "luongngocdung@gmail.com",
+      "password": "luongngocdung",
+      "token": "X8kgWGQuenHPqgUSMpzS"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML5"
+    },
+    {
+      "id": "2",
+      "name": "CSS3"
+    },
+    {
+      "id": "3",
+      "name": "JavaScript"
+    },
+    {
+      "id": "4",
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để đánh dấu tiêu đề lớn nhất? (HTML #1)",
+      "answers": [
+        "<h6>",
+        "<h1>",
+        "<title>",
+        "<heading>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "2",
+      "topicId": 1,
+      "question": "Thuộc tính nào để hiển thị văn bản thay thế cho ảnh khi ảnh không tải được? (HTML #2)",
+      "answers": [
+        "src",
+        "alt",
+        "title",
+        "href"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để nhúng video HTML5? (HTML #3)",
+      "answers": [
+        "<movie>",
+        "<media>",
+        "<video>",
+        "<embed>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "4",
+      "topicId": 1,
+      "question": "Phần tử nào mang ý nghĩa nội dung chính (main content) của trang? (HTML #4)",
+      "answers": [
+        "<section>",
+        "<article>",
+        "<main>",
+        "<div>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "5",
+      "topicId": 1,
+      "question": "Thuộc tính nào để mở liên kết trong tab mới? (HTML #5)",
+      "answers": [
+        "rel=\"noopener\"",
+        "target=\"_blank\"",
+        "open=\"_new\"",
+        "target=\"newtab\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "6",
+      "topicId": 1,
+      "question": "Thẻ nào biểu thị nội dung điều hướng? (HTML #6)",
+      "answers": [
+        "<nav>",
+        "<aside>",
+        "<menu>",
+        "<path>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "7",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để chèn nội dung âm thanh? (HTML #7)",
+      "answers": [
+        "<audio>",
+        "<sound>",
+        "<music>",
+        "<media>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "8",
+      "topicId": 1,
+      "question": "Thuộc tính nào hợp lệ của <input> để nhập email? (HTML #8)",
+      "answers": [
+        "type='mail'",
+        "type='email'",
+        "type='text-email'",
+        "type='e-mail'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "9",
+      "topicId": 1,
+      "question": "Phần tử nào dùng để tạo vùng chân trang của tài liệu hoặc section? (HTML #9)",
+      "answers": [
+        "<footer>",
+        "<bottom>",
+        "<end>",
+        "<caption>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "10",
+      "topicId": 1,
+      "question": "Thuộc tính nào bật tự động phát video/âm thanh? (HTML #10)",
+      "answers": [
+        "autoplay",
+        "play",
+        "auto",
+        "start"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "11",
+      "topicId": 1,
+      "question": "Thẻ nào biểu diễn nội dung phụ, nằm bên cạnh? (HTML #11)",
+      "answers": [
+        "<section>",
+        "<aside>",
+        "<address>",
+        "<details>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "12",
+      "topicId": 1,
+      "question": "Thuộc tính nào của form để gửi dữ liệu bằng phương thức GET? (HTML #12)",
+      "answers": [
+        "action='get'",
+        "method='get'",
+        "type='get'",
+        "send='get'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "13",
+      "topicId": 1,
+      "question": "Thuộc tính nào của form để mã hoá file upload? (HTML #13)",
+      "answers": [
+        "enctype='text/plain'",
+        "enctype='application/json'",
+        "enctype='multipart/form-data'",
+        "enctype='form-data'"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "14",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để hiển thị mã nguồn có định dạng giữ nguyên khoảng trắng? (HTML #14)",
+      "answers": [
+        "<code>",
+        "<pre>",
+        "<kbd>",
+        "<samp>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "15",
+      "topicId": 1,
+      "question": "Thẻ nào mô tả danh sách định nghĩa? (HTML #15)",
+      "answers": [
+        "<ul>",
+        "<ol>",
+        "<dl>",
+        "<dfn>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "16",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để đánh dấu tiêu đề lớn nhất? (HTML #16)",
+      "answers": [
+        "<h6>",
+        "<h1>",
+        "<title>",
+        "<heading>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": 1,
+      "question": "Thuộc tính nào để hiển thị văn bản thay thế cho ảnh khi ảnh không tải được? (HTML #17)",
+      "answers": [
+        "src",
+        "alt",
+        "title",
+        "href"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "18",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để nhúng video HTML5? (HTML #18)",
+      "answers": [
+        "<movie>",
+        "<media>",
+        "<video>",
+        "<embed>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "19",
+      "topicId": 1,
+      "question": "Phần tử nào mang ý nghĩa nội dung chính (main content) của trang? (HTML #19)",
+      "answers": [
+        "<section>",
+        "<article>",
+        "<main>",
+        "<div>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "20",
+      "topicId": 1,
+      "question": "Thuộc tính nào để mở liên kết trong tab mới? (HTML #20)",
+      "answers": [
+        "rel=\"noopener\"",
+        "target=\"_blank\"",
+        "open=\"_new\"",
+        "target=\"newtab\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "21",
+      "topicId": 1,
+      "question": "Thẻ nào biểu thị nội dung điều hướng? (HTML #21)",
+      "answers": [
+        "<nav>",
+        "<aside>",
+        "<menu>",
+        "<path>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "22",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để chèn nội dung âm thanh? (HTML #22)",
+      "answers": [
+        "<audio>",
+        "<sound>",
+        "<music>",
+        "<media>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "23",
+      "topicId": 1,
+      "question": "Thuộc tính nào hợp lệ của <input> để nhập email? (HTML #23)",
+      "answers": [
+        "type='mail'",
+        "type='email'",
+        "type='text-email'",
+        "type='e-mail'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "24",
+      "topicId": 1,
+      "question": "Phần tử nào dùng để tạo vùng chân trang của tài liệu hoặc section? (HTML #24)",
+      "answers": [
+        "<footer>",
+        "<bottom>",
+        "<end>",
+        "<caption>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "25",
+      "topicId": 1,
+      "question": "Thuộc tính nào bật tự động phát video/âm thanh? (HTML #25)",
+      "answers": [
+        "autoplay",
+        "play",
+        "auto",
+        "start"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "26",
+      "topicId": 1,
+      "question": "Thẻ nào biểu diễn nội dung phụ, nằm bên cạnh? (HTML #26)",
+      "answers": [
+        "<section>",
+        "<aside>",
+        "<address>",
+        "<details>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "27",
+      "topicId": 1,
+      "question": "Thuộc tính nào của form để gửi dữ liệu bằng phương thức GET? (HTML #27)",
+      "answers": [
+        "action='get'",
+        "method='get'",
+        "type='get'",
+        "send='get'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "28",
+      "topicId": 1,
+      "question": "Thuộc tính nào của form để mã hoá file upload? (HTML #28)",
+      "answers": [
+        "enctype='text/plain'",
+        "enctype='application/json'",
+        "enctype='multipart/form-data'",
+        "enctype='form-data'"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "29",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để hiển thị mã nguồn có định dạng giữ nguyên khoảng trắng? (HTML #29)",
+      "answers": [
+        "<code>",
+        "<pre>",
+        "<kbd>",
+        "<samp>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "30",
+      "topicId": 1,
+      "question": "Thẻ nào mô tả danh sách định nghĩa? (HTML #30)",
+      "answers": [
+        "<ul>",
+        "<ol>",
+        "<dl>",
+        "<dfn>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "31",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để làm chữ đậm? (CSS #1)",
+      "answers": [
+        "font-weight",
+        "font-style",
+        "font-bold",
+        "text-weight"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "32",
+      "topicId": 2,
+      "question": "Bộ chọn nào chọn phần tử có class 'box'? (CSS #2)",
+      "answers": [
+        "#box",
+        ".box",
+        "box",
+        "*box"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "33",
+      "topicId": 2,
+      "question": "Thuộc tính nào điều chỉnh khoảng cách bên trong phần tử? (CSS #3)",
+      "answers": [
+        "margin",
+        "padding",
+        "gap",
+        "space"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "34",
+      "topicId": 2,
+      "question": "Đơn vị nào là đơn vị tương đối theo cỡ chữ phần tử gốc? (CSS #4)",
+      "answers": [
+        "em",
+        "px",
+        "rem",
+        "%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "35",
+      "topicId": 2,
+      "question": "Thuộc tính nào bật Flexbox? (CSS #5)",
+      "answers": [
+        "display: flex",
+        "layout: flex",
+        "flex: container",
+        "position: flex"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "36",
+      "topicId": 2,
+      "question": "Trong Grid, thuộc tính nào định nghĩa số cột? (CSS #6)",
+      "answers": [
+        "grid-template-columns",
+        "grid-columns",
+        "grid-cols",
+        "columns"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "37",
+      "topicId": 2,
+      "question": "Thuộc tính nào tạo bóng đổ cho phần tử? (CSS #7)",
+      "answers": [
+        "text-shadow",
+        "box-shadow",
+        "shadow",
+        "filter: shadow"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "38",
+      "topicId": 2,
+      "question": "Giá trị nào để căn giữa ngang bằng Flexbox? (CSS #8)",
+      "answers": [
+        "justify-content: center",
+        "align-items: center",
+        "justify-items: center",
+        "text-align: center"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "39",
+      "topicId": 2,
+      "question": "Thuộc tính nào thay đổi thứ tự hiển thị của phần tử Flex? (CSS #9)",
+      "answers": [
+        "order",
+        "index",
+        "z-index",
+        "flex-order"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "40",
+      "topicId": 2,
+      "question": "Thuộc tính nào để phần tử cố định khi cuộn? (CSS #10)",
+      "answers": [
+        "position: fixed",
+        "position: sticky",
+        "position: absolute",
+        "position: static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "41",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để làm chữ đậm? (CSS #11)",
+      "answers": [
+        "font-weight",
+        "font-style",
+        "font-bold",
+        "text-weight"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "42",
+      "topicId": 2,
+      "question": "Bộ chọn nào chọn phần tử có class 'box'? (CSS #12)",
+      "answers": [
+        "#box",
+        ".box",
+        "box",
+        "*box"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "43",
+      "topicId": 2,
+      "question": "Thuộc tính nào điều chỉnh khoảng cách bên trong phần tử? (CSS #13)",
+      "answers": [
+        "margin",
+        "padding",
+        "gap",
+        "space"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "44",
+      "topicId": 2,
+      "question": "Đơn vị nào là đơn vị tương đối theo cỡ chữ phần tử gốc? (CSS #14)",
+      "answers": [
+        "em",
+        "px",
+        "rem",
+        "%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "45",
+      "topicId": 2,
+      "question": "Thuộc tính nào bật Flexbox? (CSS #15)",
+      "answers": [
+        "display: flex",
+        "layout: flex",
+        "flex: container",
+        "position: flex"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "46",
+      "topicId": 2,
+      "question": "Trong Grid, thuộc tính nào định nghĩa số cột? (CSS #16)",
+      "answers": [
+        "grid-template-columns",
+        "grid-columns",
+        "grid-cols",
+        "columns"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "47",
+      "topicId": 2,
+      "question": "Thuộc tính nào tạo bóng đổ cho phần tử? (CSS #17)",
+      "answers": [
+        "text-shadow",
+        "box-shadow",
+        "shadow",
+        "filter: shadow"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "48",
+      "topicId": 2,
+      "question": "Giá trị nào để căn giữa ngang bằng Flexbox? (CSS #18)",
+      "answers": [
+        "justify-content: center",
+        "align-items: center",
+        "justify-items: center",
+        "text-align: center"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "49",
+      "topicId": 2,
+      "question": "Thuộc tính nào thay đổi thứ tự hiển thị của phần tử Flex? (CSS #19)",
+      "answers": [
+        "order",
+        "index",
+        "z-index",
+        "flex-order"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "50",
+      "topicId": 2,
+      "question": "Thuộc tính nào để phần tử cố định khi cuộn? (CSS #20)",
+      "answers": [
+        "position: fixed",
+        "position: sticky",
+        "position: absolute",
+        "position: static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "51",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để làm chữ đậm? (CSS #21)",
+      "answers": [
+        "font-weight",
+        "font-style",
+        "font-bold",
+        "text-weight"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "52",
+      "topicId": 2,
+      "question": "Bộ chọn nào chọn phần tử có class 'box'? (CSS #22)",
+      "answers": [
+        "#box",
+        ".box",
+        "box",
+        "*box"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "53",
+      "topicId": 2,
+      "question": "Thuộc tính nào điều chỉnh khoảng cách bên trong phần tử? (CSS #23)",
+      "answers": [
+        "margin",
+        "padding",
+        "gap",
+        "space"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "54",
+      "topicId": 2,
+      "question": "Đơn vị nào là đơn vị tương đối theo cỡ chữ phần tử gốc? (CSS #24)",
+      "answers": [
+        "em",
+        "px",
+        "rem",
+        "%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "55",
+      "topicId": 2,
+      "question": "Thuộc tính nào bật Flexbox? (CSS #25)",
+      "answers": [
+        "display: flex",
+        "layout: flex",
+        "flex: container",
+        "position: flex"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "56",
+      "topicId": 2,
+      "question": "Trong Grid, thuộc tính nào định nghĩa số cột? (CSS #26)",
+      "answers": [
+        "grid-template-columns",
+        "grid-columns",
+        "grid-cols",
+        "columns"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "57",
+      "topicId": 2,
+      "question": "Thuộc tính nào tạo bóng đổ cho phần tử? (CSS #27)",
+      "answers": [
+        "text-shadow",
+        "box-shadow",
+        "shadow",
+        "filter: shadow"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "58",
+      "topicId": 2,
+      "question": "Giá trị nào để căn giữa ngang bằng Flexbox? (CSS #28)",
+      "answers": [
+        "justify-content: center",
+        "align-items: center",
+        "justify-items: center",
+        "text-align: center"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "59",
+      "topicId": 2,
+      "question": "Thuộc tính nào thay đổi thứ tự hiển thị của phần tử Flex? (CSS #29)",
+      "answers": [
+        "order",
+        "index",
+        "z-index",
+        "flex-order"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "60",
+      "topicId": 2,
+      "question": "Thuộc tính nào để phần tử cố định khi cuộn? (CSS #30)",
+      "answers": [
+        "position: fixed",
+        "position: sticky",
+        "position: absolute",
+        "position: static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "61",
+      "topicId": 3,
+      "question": "Toán tử nào kiểm tra đồng thời giá trị và kiểu? (JS #1)",
+      "answers": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "62",
+      "topicId": 3,
+      "question": "Phương thức nào thêm phần tử vào cuối mảng? (JS #2)",
+      "answers": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "63",
+      "topicId": 3,
+      "question": "Từ khóa nào khai báo biến phạm vi khối? (JS #3)",
+      "answers": [
+        "var",
+        "let",
+        "const",
+        "static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "64",
+      "topicId": 3,
+      "question": "Phương thức nào chuyển chuỗi thành số nguyên? (JS #4)",
+      "answers": [
+        "parseInt()",
+        "Number()",
+        "toString()",
+        "parseFloat()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "65",
+      "topicId": 3,
+      "question": "Tính năng nào dùng để xử lý bất đồng bộ tuần tự? (JS #5)",
+      "answers": [
+        "Promise",
+        "async/await",
+        "Callback",
+        "Generator only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "66",
+      "topicId": 3,
+      "question": "Phương thức nào lặp qua từng phần tử của mảng và trả về mảng mới? (JS #6)",
+      "answers": [
+        "forEach()",
+        "map()",
+        "filter()",
+        "reduce()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "67",
+      "topicId": 3,
+      "question": "Phương thức nào loại bỏ phần tử đầu mảng? (JS #7)",
+      "answers": [
+        "pop()",
+        "shift()",
+        "splice(0,1)",
+        "unshift()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "68",
+      "topicId": 3,
+      "question": "Hàm nào tạo số ngẫu nhiên 0..1? (JS #8)",
+      "answers": [
+        "Math.random()",
+        "random()",
+        "Number.random()",
+        "Rand()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "69",
+      "topicId": 3,
+      "question": "Phương thức nào kiểm tra một phần tử có tồn tại trong mảng? (JS #9)",
+      "answers": [
+        "has()",
+        "includes()",
+        "contains()",
+        "in()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "70",
+      "topicId": 3,
+      "question": "Từ khóa nào ngăn hoisting gán lại giá trị? (JS #10)",
+      "answers": [
+        "let",
+        "const",
+        "var",
+        "static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "71",
+      "topicId": 3,
+      "question": "Kiểu dữ liệu của null là gì theo typeof? (JS #11)",
+      "answers": [
+        "'null'",
+        "'object'",
+        "'undefined'",
+        "'number'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "72",
+      "topicId": 3,
+      "question": "Câu lệnh nào tạo bản sao nông của mảng? (JS #12)",
+      "answers": [
+        "arr.copy()",
+        "[...arr]",
+        "arr.slice(0)",
+        "Array.copy(arr)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "73",
+      "topicId": 3,
+      "question": "Phương thức nào nối các phần tử mảng thành chuỗi? (JS #13)",
+      "answers": [
+        "join()",
+        "concat()",
+        "toString()",
+        "merge()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "74",
+      "topicId": 3,
+      "question": "API nào hứa hẹn cho gọi HTTP trong trình duyệt hiện đại? (JS #14)",
+      "answers": [
+        "XMLHttpRequest",
+        "fetch",
+        "axios",
+        "http()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "75",
+      "topicId": 3,
+      "question": "Sự kiện nào kích hoạt khi DOM tải xong? (JS #15)",
+      "answers": [
+        "load",
+        "DOMContentLoaded",
+        "ready",
+        "mounted"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "76",
+      "topicId": 3,
+      "question": "Toán tử nào kiểm tra đồng thời giá trị và kiểu? (JS #16)",
+      "answers": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "77",
+      "topicId": 3,
+      "question": "Phương thức nào thêm phần tử vào cuối mảng? (JS #17)",
+      "answers": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "78",
+      "topicId": 3,
+      "question": "Từ khóa nào khai báo biến phạm vi khối? (JS #18)",
+      "answers": [
+        "var",
+        "let",
+        "const",
+        "static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "79",
+      "topicId": 3,
+      "question": "Phương thức nào chuyển chuỗi thành số nguyên? (JS #19)",
+      "answers": [
+        "parseInt()",
+        "Number()",
+        "toString()",
+        "parseFloat()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "80",
+      "topicId": 3,
+      "question": "Tính năng nào dùng để xử lý bất đồng bộ tuần tự? (JS #20)",
+      "answers": [
+        "Promise",
+        "async/await",
+        "Callback",
+        "Generator only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "81",
+      "topicId": 3,
+      "question": "Phương thức nào lặp qua từng phần tử của mảng và trả về mảng mới? (JS #21)",
+      "answers": [
+        "forEach()",
+        "map()",
+        "filter()",
+        "reduce()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "82",
+      "topicId": 3,
+      "question": "Phương thức nào loại bỏ phần tử đầu mảng? (JS #22)",
+      "answers": [
+        "pop()",
+        "shift()",
+        "splice(0,1)",
+        "unshift()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "83",
+      "topicId": 3,
+      "question": "Hàm nào tạo số ngẫu nhiên 0..1? (JS #23)",
+      "answers": [
+        "Math.random()",
+        "random()",
+        "Number.random()",
+        "Rand()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "84",
+      "topicId": 3,
+      "question": "Phương thức nào kiểm tra một phần tử có tồn tại trong mảng? (JS #24)",
+      "answers": [
+        "has()",
+        "includes()",
+        "contains()",
+        "in()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "85",
+      "topicId": 3,
+      "question": "Từ khóa nào ngăn hoisting gán lại giá trị? (JS #25)",
+      "answers": [
+        "let",
+        "const",
+        "var",
+        "static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "86",
+      "topicId": 3,
+      "question": "Kiểu dữ liệu của null là gì theo typeof? (JS #26)",
+      "answers": [
+        "'null'",
+        "'object'",
+        "'undefined'",
+        "'number'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "87",
+      "topicId": 3,
+      "question": "Câu lệnh nào tạo bản sao nông của mảng? (JS #27)",
+      "answers": [
+        "arr.copy()",
+        "[...arr]",
+        "arr.slice(0)",
+        "Array.copy(arr)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "88",
+      "topicId": 3,
+      "question": "Phương thức nào nối các phần tử mảng thành chuỗi? (JS #28)",
+      "answers": [
+        "join()",
+        "concat()",
+        "toString()",
+        "merge()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "89",
+      "topicId": 3,
+      "question": "API nào hứa hẹn cho gọi HTTP trong trình duyệt hiện đại? (JS #29)",
+      "answers": [
+        "XMLHttpRequest",
+        "fetch",
+        "axios",
+        "http()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "90",
+      "topicId": 3,
+      "question": "Sự kiện nào kích hoạt khi DOM tải xong? (JS #30)",
+      "answers": [
+        "load",
+        "DOMContentLoaded",
+        "ready",
+        "mounted"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "91",
+      "topicId": 3,
+      "question": "Toán tử nào kiểm tra đồng thời giá trị và kiểu? (JS #31)",
+      "answers": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "92",
+      "topicId": 3,
+      "question": "Phương thức nào thêm phần tử vào cuối mảng? (JS #32)",
+      "answers": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "93",
+      "topicId": 3,
+      "question": "Từ khóa nào khai báo biến phạm vi khối? (JS #33)",
+      "answers": [
+        "var",
+        "let",
+        "const",
+        "static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "94",
+      "topicId": 3,
+      "question": "Phương thức nào chuyển chuỗi thành số nguyên? (JS #34)",
+      "answers": [
+        "parseInt()",
+        "Number()",
+        "toString()",
+        "parseFloat()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "95",
+      "topicId": 3,
+      "question": "Tính năng nào dùng để xử lý bất đồng bộ tuần tự? (JS #35)",
+      "answers": [
+        "Promise",
+        "async/await",
+        "Callback",
+        "Generator only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "96",
+      "topicId": 3,
+      "question": "Phương thức nào lặp qua từng phần tử của mảng và trả về mảng mới? (JS #36)",
+      "answers": [
+        "forEach()",
+        "map()",
+        "filter()",
+        "reduce()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "97",
+      "topicId": 3,
+      "question": "Phương thức nào loại bỏ phần tử đầu mảng? (JS #37)",
+      "answers": [
+        "pop()",
+        "shift()",
+        "splice(0,1)",
+        "unshift()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "98",
+      "topicId": 3,
+      "question": "Hàm nào tạo số ngẫu nhiên 0..1? (JS #38)",
+      "answers": [
+        "Math.random()",
+        "random()",
+        "Number.random()",
+        "Rand()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "99",
+      "topicId": 3,
+      "question": "Phương thức nào kiểm tra một phần tử có tồn tại trong mảng? (JS #39)",
+      "answers": [
+        "has()",
+        "includes()",
+        "contains()",
+        "in()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "100",
+      "topicId": 3,
+      "question": "Từ khóa nào ngăn hoisting gán lại giá trị? (JS #40)",
+      "answers": [
+        "let",
+        "const",
+        "var",
+        "static"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "101",
+      "topicId": 4,
+      "question": "Hook nào để tạo state cục bộ? (React #1)",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useMemo()",
+        "useRef()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "102",
+      "topicId": 4,
+      "question": "Hook nào để chạy side-effect sau render? (React #2)",
+      "answers": [
+        "useEffect()",
+        "useState()",
+        "useMemo()",
+        "useCallback()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "103",
+      "topicId": 4,
+      "question": "Hook nào tạo tham chiếu tới DOM? (React #3)",
+      "answers": [
+        "useMemo()",
+        "useRef()",
+        "useId()",
+        "useEffect()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "104",
+      "topicId": 4,
+      "question": "Prop nào truyền dữ liệu từ cha xuống con? (React #4)",
+      "answers": [
+        "state",
+        "props",
+        "context",
+        "store"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "105",
+      "topicId": 4,
+      "question": "Công cụ nào để tạo ứng dụng React mới? (React #5)",
+      "answers": [
+        "create-react-app",
+        "npm start react",
+        "react-cli",
+        "vite-react-only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "106",
+      "topicId": 4,
+      "question": "Thành phần nào giúp định tuyến trong SPA? (React #6)",
+      "answers": [
+        "react-router-dom",
+        "redux",
+        "formik",
+        "axios"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "107",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ giá trị đã tính để tối ưu render? (React #7)",
+      "answers": [
+        "useMemo()",
+        "useCallback()",
+        "useEffect()",
+        "useLayoutEffect()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "108",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ hàm và tránh tạo mới? (React #8)",
+      "answers": [
+        "useRef()",
+        "useMemo()",
+        "useCallback()",
+        "useId()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "109",
+      "topicId": 4,
+      "question": "Context API dùng để làm gì? (React #9)",
+      "answers": [
+        "Quản lý trạng thái toàn cục",
+        "Tạo style",
+        "Gọi API",
+        "Tối ưu bundle"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "110",
+      "topicId": 4,
+      "question": "Redux dùng để làm gì trong React? (React #10)",
+      "answers": [
+        "Routing",
+        "Quản lý trạng thái",
+        "Styling",
+        "Testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "111",
+      "topicId": 4,
+      "question": "Key trong danh sách dùng để? (React #11)",
+      "answers": [
+        "Xác định phần tử duy nhất",
+        "Thêm style",
+        "Tạo ref",
+        "Gọi API"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "112",
+      "topicId": 4,
+      "question": "Component bất biến nghĩa là? (React #12)",
+      "answers": [
+        "Không nhận props",
+        "Không thay đổi output cho cùng input",
+        "Không render lại",
+        "Chỉ class component"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "113",
+      "topicId": 4,
+      "question": "React Fragment dùng để? (React #13)",
+      "answers": [
+        "Bao bọc nhiều phần tử mà không thêm DOM",
+        "Tạo portal",
+        "Clone element",
+        "Tạo suspense"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "114",
+      "topicId": 4,
+      "question": "Suspense dùng cho? (React #14)",
+      "answers": [
+        "Chờ dữ liệu/ lazy component",
+        "Định tuyến",
+        "Kiểm thử",
+        "Context"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "115",
+      "topicId": 4,
+      "question": "useLayoutEffect khác useEffect ở điểm? (React #15)",
+      "answers": [
+        "Chạy đồng bộ sau paint",
+        "Chạy trước paint đồng bộ",
+        "Chạy trước render",
+        "Chạy trên server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "116",
+      "topicId": 4,
+      "question": "Portals dùng để? (React #16)",
+      "answers": [
+        "Render con ra ngoài cây cha DOM",
+        "SSR",
+        "Redux",
+        "Router"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "117",
+      "topicId": 4,
+      "question": "Memoization component dùng với? (React #17)",
+      "answers": [
+        "React.memo",
+        "PureComponent",
+        "shouldComponentUpdate",
+        "Tất cả đáp án"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "118",
+      "topicId": 4,
+      "question": "SSR trong React là? (React #18)",
+      "answers": [
+        "Server Side Rendering",
+        "Static Styling Rules",
+        "State Sync Rendering",
+        "Service Render Routing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "119",
+      "topicId": 4,
+      "question": "Next.js là gì? (React #19)",
+      "answers": [
+        "Framework React cho SSR/SSG",
+        "Thư viện CSS",
+        "Bộ test",
+        "Router độc lập"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "120",
+      "topicId": 4,
+      "question": "Hydration nghĩa là? (React #20)",
+      "answers": [
+        "Kết hợp markup server và client",
+        "Tối ưu ảnh",
+        "Giảm bundle",
+        "Prefetch routes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "121",
+      "topicId": 4,
+      "question": "Hook nào để tạo state cục bộ? (React #21)",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useMemo()",
+        "useRef()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "122",
+      "topicId": 4,
+      "question": "Hook nào để chạy side-effect sau render? (React #22)",
+      "answers": [
+        "useEffect()",
+        "useState()",
+        "useMemo()",
+        "useCallback()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "123",
+      "topicId": 4,
+      "question": "Hook nào tạo tham chiếu tới DOM? (React #23)",
+      "answers": [
+        "useMemo()",
+        "useRef()",
+        "useId()",
+        "useEffect()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "124",
+      "topicId": 4,
+      "question": "Prop nào truyền dữ liệu từ cha xuống con? (React #24)",
+      "answers": [
+        "state",
+        "props",
+        "context",
+        "store"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "125",
+      "topicId": 4,
+      "question": "Công cụ nào để tạo ứng dụng React mới? (React #25)",
+      "answers": [
+        "create-react-app",
+        "npm start react",
+        "react-cli",
+        "vite-react-only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "126",
+      "topicId": 4,
+      "question": "Thành phần nào giúp định tuyến trong SPA? (React #26)",
+      "answers": [
+        "react-router-dom",
+        "redux",
+        "formik",
+        "axios"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "127",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ giá trị đã tính để tối ưu render? (React #27)",
+      "answers": [
+        "useMemo()",
+        "useCallback()",
+        "useEffect()",
+        "useLayoutEffect()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "128",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ hàm và tránh tạo mới? (React #28)",
+      "answers": [
+        "useRef()",
+        "useMemo()",
+        "useCallback()",
+        "useId()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "129",
+      "topicId": 4,
+      "question": "Context API dùng để làm gì? (React #29)",
+      "answers": [
+        "Quản lý trạng thái toàn cục",
+        "Tạo style",
+        "Gọi API",
+        "Tối ưu bundle"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "130",
+      "topicId": 4,
+      "question": "Redux dùng để làm gì trong React? (React #30)",
+      "answers": [
+        "Routing",
+        "Quản lý trạng thái",
+        "Styling",
+        "Testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "131",
+      "topicId": 4,
+      "question": "Key trong danh sách dùng để? (React #31)",
+      "answers": [
+        "Xác định phần tử duy nhất",
+        "Thêm style",
+        "Tạo ref",
+        "Gọi API"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "132",
+      "topicId": 4,
+      "question": "Component bất biến nghĩa là? (React #32)",
+      "answers": [
+        "Không nhận props",
+        "Không thay đổi output cho cùng input",
+        "Không render lại",
+        "Chỉ class component"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "133",
+      "topicId": 4,
+      "question": "React Fragment dùng để? (React #33)",
+      "answers": [
+        "Bao bọc nhiều phần tử mà không thêm DOM",
+        "Tạo portal",
+        "Clone element",
+        "Tạo suspense"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "134",
+      "topicId": 4,
+      "question": "Suspense dùng cho? (React #34)",
+      "answers": [
+        "Chờ dữ liệu/ lazy component",
+        "Định tuyến",
+        "Kiểm thử",
+        "Context"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "135",
+      "topicId": 4,
+      "question": "useLayoutEffect khác useEffect ở điểm? (React #35)",
+      "answers": [
+        "Chạy đồng bộ sau paint",
+        "Chạy trước paint đồng bộ",
+        "Chạy trước render",
+        "Chạy trên server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "136",
+      "topicId": 4,
+      "question": "Portals dùng để? (React #36)",
+      "answers": [
+        "Render con ra ngoài cây cha DOM",
+        "SSR",
+        "Redux",
+        "Router"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "137",
+      "topicId": 4,
+      "question": "Memoization component dùng với? (React #37)",
+      "answers": [
+        "React.memo",
+        "PureComponent",
+        "shouldComponentUpdate",
+        "Tất cả đáp án"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "138",
+      "topicId": 4,
+      "question": "SSR trong React là? (React #38)",
+      "answers": [
+        "Server Side Rendering",
+        "Static Styling Rules",
+        "State Sync Rendering",
+        "Service Render Routing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "139",
+      "topicId": 4,
+      "question": "Next.js là gì? (React #39)",
+      "answers": [
+        "Framework React cho SSR/SSG",
+        "Thư viện CSS",
+        "Bộ test",
+        "Router độc lập"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "140",
+      "topicId": 4,
+      "question": "Hydration nghĩa là? (React #40)",
+      "answers": [
+        "Kết hợp markup server và client",
+        "Tối ưu ảnh",
+        "Giảm bundle",
+        "Prefetch routes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "141",
+      "topicId": 4,
+      "question": "Hook nào để tạo state cục bộ? (React #41)",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useMemo()",
+        "useRef()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "142",
+      "topicId": 4,
+      "question": "Hook nào để chạy side-effect sau render? (React #42)",
+      "answers": [
+        "useEffect()",
+        "useState()",
+        "useMemo()",
+        "useCallback()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "143",
+      "topicId": 4,
+      "question": "Hook nào tạo tham chiếu tới DOM? (React #43)",
+      "answers": [
+        "useMemo()",
+        "useRef()",
+        "useId()",
+        "useEffect()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "144",
+      "topicId": 4,
+      "question": "Prop nào truyền dữ liệu từ cha xuống con? (React #44)",
+      "answers": [
+        "state",
+        "props",
+        "context",
+        "store"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "145",
+      "topicId": 4,
+      "question": "Công cụ nào để tạo ứng dụng React mới? (React #45)",
+      "answers": [
+        "create-react-app",
+        "npm start react",
+        "react-cli",
+        "vite-react-only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "146",
+      "topicId": 4,
+      "question": "Thành phần nào giúp định tuyến trong SPA? (React #46)",
+      "answers": [
+        "react-router-dom",
+        "redux",
+        "formik",
+        "axios"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "147",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ giá trị đã tính để tối ưu render? (React #47)",
+      "answers": [
+        "useMemo()",
+        "useCallback()",
+        "useEffect()",
+        "useLayoutEffect()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "148",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ hàm và tránh tạo mới? (React #48)",
+      "answers": [
+        "useRef()",
+        "useMemo()",
+        "useCallback()",
+        "useId()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "149",
+      "topicId": 4,
+      "question": "Context API dùng để làm gì? (React #49)",
+      "answers": [
+        "Quản lý trạng thái toàn cục",
+        "Tạo style",
+        "Gọi API",
+        "Tối ưu bundle"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "150",
+      "topicId": 4,
+      "question": "Redux dùng để làm gì trong React? (React #50)",
+      "answers": [
+        "Routing",
+        "Quản lý trạng thái",
+        "Styling",
+        "Testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "151",
+      "topicId": 4,
+      "question": "Key trong danh sách dùng để? (React #51)",
+      "answers": [
+        "Xác định phần tử duy nhất",
+        "Thêm style",
+        "Tạo ref",
+        "Gọi API"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "152",
+      "topicId": 4,
+      "question": "Component bất biến nghĩa là? (React #52)",
+      "answers": [
+        "Không nhận props",
+        "Không thay đổi output cho cùng input",
+        "Không render lại",
+        "Chỉ class component"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "153",
+      "topicId": 4,
+      "question": "React Fragment dùng để? (React #53)",
+      "answers": [
+        "Bao bọc nhiều phần tử mà không thêm DOM",
+        "Tạo portal",
+        "Clone element",
+        "Tạo suspense"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "154",
+      "topicId": 4,
+      "question": "Suspense dùng cho? (React #54)",
+      "answers": [
+        "Chờ dữ liệu/ lazy component",
+        "Định tuyến",
+        "Kiểm thử",
+        "Context"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "155",
+      "topicId": 4,
+      "question": "useLayoutEffect khác useEffect ở điểm? (React #55)",
+      "answers": [
+        "Chạy đồng bộ sau paint",
+        "Chạy trước paint đồng bộ",
+        "Chạy trước render",
+        "Chạy trên server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "156",
+      "topicId": 4,
+      "question": "Portals dùng để? (React #56)",
+      "answers": [
+        "Render con ra ngoài cây cha DOM",
+        "SSR",
+        "Redux",
+        "Router"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "157",
+      "topicId": 4,
+      "question": "Memoization component dùng với? (React #57)",
+      "answers": [
+        "React.memo",
+        "PureComponent",
+        "shouldComponentUpdate",
+        "Tất cả đáp án"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "158",
+      "topicId": 4,
+      "question": "SSR trong React là? (React #58)",
+      "answers": [
+        "Server Side Rendering",
+        "Static Styling Rules",
+        "State Sync Rendering",
+        "Service Render Routing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "159",
+      "topicId": 4,
+      "question": "Next.js là gì? (React #59)",
+      "answers": [
+        "Framework React cho SSR/SSG",
+        "Thư viện CSS",
+        "Bộ test",
+        "Router độc lập"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "160",
+      "topicId": 4,
+      "question": "Hydration nghĩa là? (React #60)",
+      "answers": [
+        "Kết hợp markup server và client",
+        "Tối ưu ảnh",
+        "Giảm bundle",
+        "Prefetch routes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "161",
+      "topicId": 4,
+      "question": "Hook nào để tạo state cục bộ? (React #61)",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useMemo()",
+        "useRef()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "162",
+      "topicId": 4,
+      "question": "Hook nào để chạy side-effect sau render? (React #62)",
+      "answers": [
+        "useEffect()",
+        "useState()",
+        "useMemo()",
+        "useCallback()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "163",
+      "topicId": 4,
+      "question": "Hook nào tạo tham chiếu tới DOM? (React #63)",
+      "answers": [
+        "useMemo()",
+        "useRef()",
+        "useId()",
+        "useEffect()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "164",
+      "topicId": 4,
+      "question": "Prop nào truyền dữ liệu từ cha xuống con? (React #64)",
+      "answers": [
+        "state",
+        "props",
+        "context",
+        "store"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "165",
+      "topicId": 4,
+      "question": "Công cụ nào để tạo ứng dụng React mới? (React #65)",
+      "answers": [
+        "create-react-app",
+        "npm start react",
+        "react-cli",
+        "vite-react-only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "166",
+      "topicId": 4,
+      "question": "Thành phần nào giúp định tuyến trong SPA? (React #66)",
+      "answers": [
+        "react-router-dom",
+        "redux",
+        "formik",
+        "axios"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "167",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ giá trị đã tính để tối ưu render? (React #67)",
+      "answers": [
+        "useMemo()",
+        "useCallback()",
+        "useEffect()",
+        "useLayoutEffect()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "168",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ hàm và tránh tạo mới? (React #68)",
+      "answers": [
+        "useRef()",
+        "useMemo()",
+        "useCallback()",
+        "useId()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "169",
+      "topicId": 4,
+      "question": "Context API dùng để làm gì? (React #69)",
+      "answers": [
+        "Quản lý trạng thái toàn cục",
+        "Tạo style",
+        "Gọi API",
+        "Tối ưu bundle"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "170",
+      "topicId": 4,
+      "question": "Redux dùng để làm gì trong React? (React #70)",
+      "answers": [
+        "Routing",
+        "Quản lý trạng thái",
+        "Styling",
+        "Testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "171",
+      "topicId": 4,
+      "question": "Key trong danh sách dùng để? (React #71)",
+      "answers": [
+        "Xác định phần tử duy nhất",
+        "Thêm style",
+        "Tạo ref",
+        "Gọi API"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "172",
+      "topicId": 4,
+      "question": "Component bất biến nghĩa là? (React #72)",
+      "answers": [
+        "Không nhận props",
+        "Không thay đổi output cho cùng input",
+        "Không render lại",
+        "Chỉ class component"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "173",
+      "topicId": 4,
+      "question": "React Fragment dùng để? (React #73)",
+      "answers": [
+        "Bao bọc nhiều phần tử mà không thêm DOM",
+        "Tạo portal",
+        "Clone element",
+        "Tạo suspense"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "174",
+      "topicId": 4,
+      "question": "Suspense dùng cho? (React #74)",
+      "answers": [
+        "Chờ dữ liệu/ lazy component",
+        "Định tuyến",
+        "Kiểm thử",
+        "Context"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "175",
+      "topicId": 4,
+      "question": "useLayoutEffect khác useEffect ở điểm? (React #75)",
+      "answers": [
+        "Chạy đồng bộ sau paint",
+        "Chạy trước paint đồng bộ",
+        "Chạy trước render",
+        "Chạy trên server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "176",
+      "topicId": 4,
+      "question": "Portals dùng để? (React #76)",
+      "answers": [
+        "Render con ra ngoài cây cha DOM",
+        "SSR",
+        "Redux",
+        "Router"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "177",
+      "topicId": 4,
+      "question": "Memoization component dùng với? (React #77)",
+      "answers": [
+        "React.memo",
+        "PureComponent",
+        "shouldComponentUpdate",
+        "Tất cả đáp án"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "178",
+      "topicId": 4,
+      "question": "SSR trong React là? (React #78)",
+      "answers": [
+        "Server Side Rendering",
+        "Static Styling Rules",
+        "State Sync Rendering",
+        "Service Render Routing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "179",
+      "topicId": 4,
+      "question": "Next.js là gì? (React #79)",
+      "answers": [
+        "Framework React cho SSR/SSG",
+        "Thư viện CSS",
+        "Bộ test",
+        "Router độc lập"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "180",
+      "topicId": 4,
+      "question": "Hydration nghĩa là? (React #80)",
+      "answers": [
+        "Kết hợp markup server và client",
+        "Tối ưu ảnh",
+        "Giảm bundle",
+        "Prefetch routes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "181",
+      "topicId": 4,
+      "question": "Hook nào để tạo state cục bộ? (React #81)",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useMemo()",
+        "useRef()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "182",
+      "topicId": 4,
+      "question": "Hook nào để chạy side-effect sau render? (React #82)",
+      "answers": [
+        "useEffect()",
+        "useState()",
+        "useMemo()",
+        "useCallback()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "183",
+      "topicId": 4,
+      "question": "Hook nào tạo tham chiếu tới DOM? (React #83)",
+      "answers": [
+        "useMemo()",
+        "useRef()",
+        "useId()",
+        "useEffect()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "184",
+      "topicId": 4,
+      "question": "Prop nào truyền dữ liệu từ cha xuống con? (React #84)",
+      "answers": [
+        "state",
+        "props",
+        "context",
+        "store"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "185",
+      "topicId": 4,
+      "question": "Công cụ nào để tạo ứng dụng React mới? (React #85)",
+      "answers": [
+        "create-react-app",
+        "npm start react",
+        "react-cli",
+        "vite-react-only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "186",
+      "topicId": 4,
+      "question": "Thành phần nào giúp định tuyến trong SPA? (React #86)",
+      "answers": [
+        "react-router-dom",
+        "redux",
+        "formik",
+        "axios"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "187",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ giá trị đã tính để tối ưu render? (React #87)",
+      "answers": [
+        "useMemo()",
+        "useCallback()",
+        "useEffect()",
+        "useLayoutEffect()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "188",
+      "topicId": 4,
+      "question": "Hook nào ghi nhớ hàm và tránh tạo mới? (React #88)",
+      "answers": [
+        "useRef()",
+        "useMemo()",
+        "useCallback()",
+        "useId()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "189",
+      "topicId": 4,
+      "question": "Context API dùng để làm gì? (React #89)",
+      "answers": [
+        "Quản lý trạng thái toàn cục",
+        "Tạo style",
+        "Gọi API",
+        "Tối ưu bundle"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "190",
+      "topicId": 4,
+      "question": "Redux dùng để làm gì trong React? (React #90)",
+      "answers": [
+        "Routing",
+        "Quản lý trạng thái",
+        "Styling",
+        "Testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "191",
+      "topicId": 4,
+      "question": "Key trong danh sách dùng để? (React #91)",
+      "answers": [
+        "Xác định phần tử duy nhất",
+        "Thêm style",
+        "Tạo ref",
+        "Gọi API"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "192",
+      "topicId": 4,
+      "question": "Component bất biến nghĩa là? (React #92)",
+      "answers": [
+        "Không nhận props",
+        "Không thay đổi output cho cùng input",
+        "Không render lại",
+        "Chỉ class component"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "193",
+      "topicId": 4,
+      "question": "React Fragment dùng để? (React #93)",
+      "answers": [
+        "Bao bọc nhiều phần tử mà không thêm DOM",
+        "Tạo portal",
+        "Clone element",
+        "Tạo suspense"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "194",
+      "topicId": 4,
+      "question": "Suspense dùng cho? (React #94)",
+      "answers": [
+        "Chờ dữ liệu/ lazy component",
+        "Định tuyến",
+        "Kiểm thử",
+        "Context"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "195",
+      "topicId": 4,
+      "question": "useLayoutEffect khác useEffect ở điểm? (React #95)",
+      "answers": [
+        "Chạy đồng bộ sau paint",
+        "Chạy trước paint đồng bộ",
+        "Chạy trước render",
+        "Chạy trên server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "196",
+      "topicId": 4,
+      "question": "Portals dùng để? (React #96)",
+      "answers": [
+        "Render con ra ngoài cây cha DOM",
+        "SSR",
+        "Redux",
+        "Router"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "197",
+      "topicId": 4,
+      "question": "Memoization component dùng với? (React #97)",
+      "answers": [
+        "React.memo",
+        "PureComponent",
+        "shouldComponentUpdate",
+        "Tất cả đáp án"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "198",
+      "topicId": 4,
+      "question": "SSR trong React là? (React #98)",
+      "answers": [
+        "Server Side Rendering",
+        "Static Styling Rules",
+        "State Sync Rendering",
+        "Service Render Routing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "199",
+      "topicId": 4,
+      "question": "Next.js là gì? (React #99)",
+      "answers": [
+        "Framework React cho SSR/SSG",
+        "Thư viện CSS",
+        "Bộ test",
+        "Router độc lập"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "200",
+      "topicId": 4,
+      "question": "Hydration nghĩa là? (React #100)",
+      "answers": [
+        "Kết hợp markup server và client",
+        "Tối ưu ảnh",
+        "Giảm bundle",
+        "Prefetch routes"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "id": "1",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        },
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 24,
+          "answer": 0
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 49,
+          "answer": 1
+        },
+        {
+          "questionId": 44,
+          "answer": 1
+        },
+        {
+          "questionId": 32,
+          "answer": 0
+        },
+        {
+          "questionId": 31,
+          "answer": 1
+        },
+        {
+          "questionId": 33,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 75,
+          "answer": 1
+        },
+        {
+          "questionId": 89,
+          "answer": 3
+        },
+        {
+          "questionId": 98,
+          "answer": 2
+        },
+        {
+          "questionId": 78,
+          "answer": 2
+        },
+        {
+          "questionId": 61,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 128,
+          "answer": 3
+        },
+        {
+          "questionId": 198,
+          "answer": 0
+        },
+        {
+          "questionId": 144,
+          "answer": 2
+        },
+        {
+          "questionId": 114,
+          "answer": 2
+        },
+        {
+          "questionId": 112,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 3
+        },
+        {
+          "questionId": 24,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 2
+        },
+        {
+          "questionId": 18,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 49,
+          "answer": 1
+        },
+        {
+          "questionId": 37,
+          "answer": 2
+        },
+        {
+          "questionId": 53,
+          "answer": 0
+        },
+        {
+          "questionId": 33,
+          "answer": 1
+        },
+        {
+          "questionId": 32,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "userId": 2,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 85,
+          "answer": 2
+        },
+        {
+          "questionId": 78,
+          "answer": 2
+        },
+        {
+          "questionId": 90,
+          "answer": 1
+        },
+        {
+          "questionId": 84,
+          "answer": 2
+        },
+        {
+          "questionId": 71,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "userId": 3,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 178,
+          "answer": 1
+        },
+        {
+          "questionId": 182,
+          "answer": 1
+        },
+        {
+          "questionId": 122,
+          "answer": 3
+        },
+        {
+          "questionId": 169,
+          "answer": 3
+        },
+        {
+          "questionId": 194,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 30,
+          "answer": 2
+        },
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 23,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "userId": 5,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 43,
+          "answer": 2
+        },
+        {
+          "questionId": 39,
+          "answer": 1
+        },
+        {
+          "questionId": 33,
+          "answer": 3
+        },
+        {
+          "questionId": 37,
+          "answer": 3
+        },
+        {
+          "questionId": 60,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "userId": 1,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 127,
+          "answer": 0
+        },
+        {
+          "questionId": 112,
+          "answer": 1
+        },
+        {
+          "questionId": 134,
+          "answer": 0
+        },
+        {
+          "questionId": 107,
+          "answer": 0
+        },
+        {
+          "questionId": 119,
+          "answer": 0
+        },
+        {
+          "questionId": 105,
+          "answer": 0
+        },
+        {
+          "questionId": 131,
+          "answer": 0
+        },
+        {
+          "questionId": 120,
+          "answer": 0
+        },
+        {
+          "questionId": 126,
+          "answer": 0
+        },
+        {
+          "questionId": 132,
+          "answer": 1
+        },
+        {
+          "questionId": 110,
+          "answer": 1
+        },
+        {
+          "questionId": 125,
+          "answer": 0
+        },
+        {
+          "questionId": 102,
+          "answer": 0
+        },
+        {
+          "questionId": 137,
+          "answer": 3
+        },
+        {
+          "questionId": 142,
+          "answer": 0
+        },
+        {
+          "questionId": 136,
+          "answer": 3
+        },
+        {
+          "questionId": 104,
+          "answer": 1
+        },
+        {
+          "questionId": 122,
+          "answer": 0
+        },
+        {
+          "questionId": 101,
+          "answer": 0
+        },
+        {
+          "questionId": 144,
+          "answer": 1
+        }
+      ],
+      "createdAt": "2025-12-16T14:28:53.133Z"
+    }
+  ]
+}
